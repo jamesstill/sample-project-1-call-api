@@ -1,0 +1,22 @@
+<div align="center">
+  <h2>Fake User Data</h2>
+  <button (click)="getUsers()">GET Users</button>
+  <table>
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Username</th>
+        <th>EMail</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let u of users">
+        <td>{{ u.id }}</td>
+        <td>{{ u.name }}</td>
+        <td>{{ u.username }}</td>
+        <td>{{ u.email }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
