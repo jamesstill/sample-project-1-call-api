@@ -23,6 +23,10 @@
     margin: 0;
   }
 
+  .margin-25 {
+    margin: 25px;
+  }
+
   .spacer {
     flex: 1;
   }
@@ -412,6 +416,15 @@
       />
     </svg>
   </div>  
+</div>
+
+<div class="content card highlight-card">
+  <div class="margin-25">
+    <a routerLink="/users"><button class="btn btn-success">Fetch Mock Users from an API</button></a>
+  </div>
+  <div class="margin-25">
+    <a routerLink="/joke"><button class="btn btn-success">Get Random Joke from an API</button></a>
+  </div>
 </div>
 
 <router-outlet></router-outlet>

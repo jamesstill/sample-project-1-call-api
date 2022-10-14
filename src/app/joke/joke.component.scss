@@ -1,16 +1,24 @@
-p {
-    font-family: Arial;
-    font-size: 18px;
+.joke-setup {
+  font-family: Arial;
+  font-size: 24px;
+}
+
+.joke-punchline {
+  font-family: Arial;
+  font-size: 32px;
+}
+
+.margin-125 {
+  margin-left: 125px;
+  margin-right: 125px;
 }
 
 .fade-in-text {
-    font-family: Arial;
-    font-size: 18px;
-    animation: fadeIn 15s;
-    -webkit-animation: fadeIn 15s;
-    -moz-animation: fadeIn 15s;
-    -o-animation: fadeIn 15s;
-    -ms-animation: fadeIn 15s;
+    animation: fadeIn 20s;
+    -webkit-animation: fadeIn 20s;
+    -moz-animation: fadeIn 20s;
+    -o-animation: fadeIn 20s;
+    -ms-animation: fadeIn 20s;
   }
   
   @keyframes fadeIn {

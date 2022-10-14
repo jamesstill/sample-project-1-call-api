@@ -1,6 +1,6 @@
 <div align="center">
     <h2>Random Joke</h2>
-    <button (click)="getJoke()">GET Joke</button> 
-    <p>{{joke.setup}}</p>
-    <p class="fade-in-text">{{joke.punchline}}</p>
+    <p class="margin-125">This random joke fetched from ng joke.service.ts which is a wrapper around an HttpClient that calls https://official-joke-api.appspot.com/random_joke.</p>
+    <p class="joke-setup">{{joke.setup}}</p>
+    <p class="joke-punchline fade-in-text">{{joke.punchline}}</p>
 </div>
